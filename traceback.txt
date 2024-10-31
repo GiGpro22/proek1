@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 79, in script
+    jump two
+ScriptError: could not find label 'two'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 79, in script
+    jump two
+  File "C:\Users\user\Downloads\renpy-8.3.2-sdk\renpy\ast.py", line 1699, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\user\Downloads\renpy-8.3.2-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'two'.
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.3.2.24090902
+One piece1 1.0
+Thu Oct 31 16:52:07 2024
